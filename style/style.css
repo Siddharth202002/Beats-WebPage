@@ -119,9 +119,8 @@ section .lowerPart img {
   height: 30px;
 }
 
-
 /* specs section */
-.specs .specsSectionHeader{
+.specs .specsSectionHeader {
   display: flex;
   justify-content: center;
   position: relative;
@@ -129,86 +128,69 @@ section .lowerPart img {
   top: 18px;
 }
 
-.specs .mainSpecs{
+.specs .mainSpecs {
   display: flex;
   justify-content: center;
   gap: 150px;
   /* position: relative;
   top: 100px; */
-  margin-top: 100px ;
+  margin-top: 100px;
 }
-.specs .mainSpecs .specsSectionLeftPart .imgPara1{
+.specs .mainSpecs .specsSectionLeftPart .imgPara1 {
   position: relative;
   left: 60px;
-
 }
-.specs .mainSpecs .specsSectionLeftPart .imgPara1
-img{
+.specs .mainSpecs .specsSectionLeftPart .imgPara1 img {
   height: 15px;
 }
-.specs .mainSpecs .specsSectionLeftPart .imgPara1
-:nth-child(3){
+.specs .mainSpecs .specsSectionLeftPart .imgPara1 :nth-child(3) {
   font-size: 0.7rem;
   margin-top: 5px;
-  
-  
 }
-.specs .mainSpecs .specsSectionLeftPart .imgPara2{
+.specs .mainSpecs .specsSectionLeftPart .imgPara2 {
   position: relative;
   top: 20px;
   left: 30px;
 }
 
-
-.specs .mainSpecs .specsSectionLeftPart .imgPara2
-img{
+.specs .mainSpecs .specsSectionLeftPart .imgPara2 img {
   height: 15px;
-
 }
-.specs .mainSpecs .specsSectionLeftPart .imgPara2
-:nth-child(3){
+.specs .mainSpecs .specsSectionLeftPart .imgPara2 :nth-child(3) {
   font-size: 0.7rem;
   margin-top: 5px;
-  
-  
 }
-.specs .mainSpecs .specsSectionLeftPart .imgPara3{
+.specs .mainSpecs .specsSectionLeftPart .imgPara3 {
   position: relative;
- top: 40px;
- left: 25px;
+  top: 40px;
+  left: 25px;
 }
-.specs .mainSpecs .specsSectionLeftPart .imgPara3
-img{
+.specs .mainSpecs .specsSectionLeftPart .imgPara3 img {
   height: 15px;
-
 }
 
-.specs .mainSpecs .specsSectionLeftPart .imgPara3
-:nth-child(3){
+.specs .mainSpecs .specsSectionLeftPart .imgPara3 :nth-child(3) {
   font-size: 0.7rem;
   margin-top: 5px;
 }
 
-.specs .mainSpecs .specsSectionLeftPart .imgPara4{
+.specs .mainSpecs .specsSectionLeftPart .imgPara4 {
   position: relative;
- top: 65px;
- left: 45px;
+  top: 65px;
+  left: 45px;
 }
 
-.specs .mainSpecs .specsSectionLeftPart .imgPara4
-img{
+.specs .mainSpecs .specsSectionLeftPart .imgPara4 img {
   height: 15px;
-
 }
 
-.specs .mainSpecs .specsSectionLeftPart .imgPara4
-:nth-child(3){
+.specs .mainSpecs .specsSectionLeftPart .imgPara4 :nth-child(3) {
   font-size: 0.7rem;
   margin-top: 5px;
 }
 /* section right part */
-.specs .mainSpecs .specsSectionRigthPart img{
-  height:240px;
+.specs .mainSpecs .specsSectionRigthPart img {
+  height: 240px;
   width: 240px;
   position: relative;
   top: 40px;
@@ -216,41 +198,32 @@ img{
 
 /* case section */
 
-.caseSection{
+.caseSection {
   margin-top: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 70px;
-  
-  
 }
-.caseSection header img{
-  margin-left:200px;
+.caseSection header img {
+  margin-left: 200px;
   height: 50px;
 }
 
-.caseSection .caseSectionMain{
+.caseSection .caseSectionMain {
   display: flex;
   align-items: center;
   gap: 50px;
 }
 
-
-.caseSection .caseSectionMain
-.caseSectionMainLeft img{
+.caseSection .caseSectionMain .caseSectionMainLeft img {
   height: 250px;
- 
-
 }
-.caseSection .caseSectionMain
-.caseSectionMainRight p{
+.caseSection .caseSectionMain .caseSectionMainRight p {
   font-size: 0.8rem;
   line-height: 22px;
-
 }
-.caseSection .caseSectionMain
-.caseSectionMainRight .moreInfo{
+.caseSection .caseSectionMain .caseSectionMainRight .moreInfo {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -261,46 +234,43 @@ img{
   border-radius: 5px;
   cursor: pointer;
 }
-.caseSection .caseSectionMain
-.caseSectionMainRight .moreInfo img{
+.caseSection .caseSectionMain .caseSectionMainRight .moreInfo img {
   height: 15px;
 }
-.caseSection .caseSectionMain
-.caseSectionMainRight .moreInfo p{
+.caseSection .caseSectionMain .caseSectionMainRight .moreInfo p {
   font-weight: 800;
 }
 
 /* Buy now section */
 
 .buyNowSection {
-  
   display: flex;
   gap: 70px;
   background: #1e1e21;
   align-items: center;
   justify-content: center;
   width: 1000px;
-  
+
   margin: auto;
   margin-top: 100px;
   padding: 50px 40px;
   border-radius: 25px;
 }
 
-.buyNowSection .buyNowSectionLeft{
+.buyNowSection .buyNowSectionLeft {
   display: flex;
   flex-direction: column;
   gap: 15px;
 }
-.buyNowSection .buyNowSectionLeft h3{
+.buyNowSection .buyNowSectionLeft h3 {
   font-weight: bolder;
 }
 
-.buyNowSection .buyNowSectionLeft p{
+.buyNowSection .buyNowSectionLeft p {
   font-size: 0.8rem;
 }
 
-.buyNowSection .buyNowSectionLeft .buy{
+.buyNowSection .buyNowSectionLeft .buy {
   background-color: black;
   display: flex;
   align-items: center;
@@ -310,21 +280,19 @@ img{
   width: 95px;
   border-radius: 10px;
 }
-.buyNowSection .buyNowSectionLeft .buy img{
+.buyNowSection .buyNowSectionLeft .buy img {
   height: 12px;
 }
-.buyNowSection .buyNowSectionLeft .buy p{
+.buyNowSection .buyNowSectionLeft .buy p {
   font-size: 0.7rem;
 }
 
-.buyNowSection .buyNowSectionRight img{
-  
+.buyNowSection .buyNowSectionRight img {
   height: 250px;
-
 }
 
 /* style section */
-.styleSection{
+.styleSection {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -332,90 +300,83 @@ img{
   gap: 30px;
 }
 
-.styleSection .styleSectionHeader img{
+.styleSection .styleSectionHeader img {
   height: 120px;
-  
 }
-.styleSection .styleSectionHeadphones{
+.styleSection .styleSectionHeadphones {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 50px;
 }
-.styleSection .styleSectionHeadphones .headphone2{
+.styleSection .styleSectionHeadphones .headphone2 {
   display: flex;
 }
-.styleSection .styleSectionHeadphones div{
+.styleSection .styleSectionHeadphones div {
   background: #1e1e21;
-  
 }
 
-.styleSection .styleSectionHeadphones .headphoneContent{
+.styleSection .styleSectionHeadphones .headphoneContent {
   display: flex;
-  
+
   align-items: center;
   margin-left: 10px;
 }
-.styleSection .styleSectionHeadphones .headphoneContent p{
+.styleSection .styleSectionHeadphones .headphoneContent p {
   font-size: 1.1rem;
   font-weight: bolder;
 }
-.styleSection .styleSectionHeadphones .headphoneContent p span{
+.styleSection .styleSectionHeadphones .headphoneContent p span {
   font-size: 0.9rem;
 }
-.styleSection .styleSectionHeadphones .headphoneContent img{
+.styleSection .styleSectionHeadphones .headphoneContent img {
   height: 20px;
   margin-left: 30px;
-
-  
-} 
-.styleSection .styleSectionHeadphones .headphone{
+}
+.styleSection .styleSectionHeadphones .headphone {
   margin-left: 40px;
   position: relative;
   bottom: 40px;
-  
-  
 }
-.styleSection .styleSectionHeadphones .headphoneContent .styleShoppingBag{
+.styleSection .styleSectionHeadphones .headphoneContent .styleShoppingBag {
   margin-left: 70px;
 }
-.styleSection .styleSectionHeadphones .headphoneContent .Bag1{
+.styleSection .styleSectionHeadphones .headphoneContent .Bag1 {
   margin-right: 60px;
 }
 /* footer section */
-footer{
+footer {
   display: flex;
   margin-top: 100px;
   justify-content: space-around;
   align-items: center;
   margin-left: 100px;
 }
-footer .footerImg1{
+footer .footerImg1 {
   height: 25px;
 }
-footer .footer1{
+footer .footer1 {
   display: flex;
   flex-direction: column;
   gap: 8px;
 }
-footer .footer1 h6{
+footer .footer1 h6 {
   font-weight: 300;
 }
-footer .footer2{
+footer .footer2 {
   display: flex;
   flex-direction: column;
   gap: 8px;
 }
-footer .footer2 h6{
+footer .footer2 h6 {
   font-weight: 300;
 }
 
-footer .footer3{
+footer .footer3 {
   display: flex;
   flex-direction: column;
   gap: 15px;
-  
 }
-footer .footer3 .emailSection{
+footer .footer3 .emailSection {
   display: flex;
   gap: 50px;
   background: #1e1e21;
@@ -424,42 +385,17 @@ footer .footer3 .emailSection{
   align-items: center;
 }
 
-footer .footer3 .emailSection .subscribe{
+footer .footer3 .emailSection .subscribe {
   display: flex;
   gap: 10px;
   background-color: black;
   padding: 5px 12px;
   border-radius: 5px;
 }
-footer .footerLastPart{
+footer .footerLastPart {
   display: flex;
   gap: 15px;
 }
-footer .footerLastImg{
+footer .footerLastImg {
   height: 18px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-
-
-  
-  
-
-  
-
-
-
-
