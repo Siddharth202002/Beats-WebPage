@@ -1,0 +1,465 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #ffffff;
+}
+body {
+  background-color: #0f0f10;
+}
+header {
+  position: relative;
+  right: 100px;
+}
+header nav .header-part1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header nav .header-part1 .brandLogo {
+  position: absolute;
+  top: 30px;
+  left: 400px;
+}
+header nav .header-part1 .headphonePhoto {
+  height: 350px;
+  width: 170px;
+  margin-right: 20px;
+}
+header nav .header-part1 .button-links {
+  position: absolute;
+  top: 30px;
+  right: 250px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+header nav .header-part1 .button-links ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+header nav .header-part1 .button-links ul li a {
+  text-decoration: none;
+}
+header nav .header-part1 .button-links .shopButton {
+  background-color: #1e1e21;
+  padding: 5px 20px;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+header nav .header-part1 .button-links .shopButton:hover {
+  background-color: gray;
+  color: #0f0f10;
+}
+/* header second part */
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  right: 100px;
+}
+section .upperPart {
+  position: relative;
+  left: 300px;
+  bottom: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+section .upperPart img {
+  margin-left: 15px;
+}
+section .upperPart h1 {
+  font-size: 2.2rem;
+  font-weight: 800;
+}
+section .upperPart h4 {
+  font-size: 1.1rem;
+}
+section .upperPart p {
+  font-size: 0.8rem;
+  line-height: 20px;
+}
+section .upperPart .shoppingBag {
+  background-color: #1e1e21;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  width: 60%;
+
+  padding: 5px 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+section .upperPart .shoppingBag img {
+  height: 10px;
+}
+section .upperPart .shoppingBag .span1 {
+  font-size: 0.5rem;
+}
+section .upperPart .shoppingBag .span2 {
+  font-size: 0.7rem;
+}
+
+section .lowerPart {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+  position: relative;
+  bottom: 50px;
+  left: 100px;
+}
+section .lowerPart img {
+  height: 30px;
+}
+
+
+/* specs section */
+.specs .specsSectionHeader{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: 13px;
+  top: 18px;
+}
+
+.specs .mainSpecs{
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+  /* position: relative;
+  top: 100px; */
+  margin-top: 100px ;
+}
+.specs .mainSpecs .specsSectionLeftPart .imgPara1{
+  position: relative;
+  left: 60px;
+
+}
+.specs .mainSpecs .specsSectionLeftPart .imgPara1
+img{
+  height: 15px;
+}
+.specs .mainSpecs .specsSectionLeftPart .imgPara1
+:nth-child(3){
+  font-size: 0.7rem;
+  margin-top: 5px;
+  
+  
+}
+.specs .mainSpecs .specsSectionLeftPart .imgPara2{
+  position: relative;
+  top: 20px;
+  left: 30px;
+}
+
+
+.specs .mainSpecs .specsSectionLeftPart .imgPara2
+img{
+  height: 15px;
+
+}
+.specs .mainSpecs .specsSectionLeftPart .imgPara2
+:nth-child(3){
+  font-size: 0.7rem;
+  margin-top: 5px;
+  
+  
+}
+.specs .mainSpecs .specsSectionLeftPart .imgPara3{
+  position: relative;
+ top: 40px;
+ left: 25px;
+}
+.specs .mainSpecs .specsSectionLeftPart .imgPara3
+img{
+  height: 15px;
+
+}
+
+.specs .mainSpecs .specsSectionLeftPart .imgPara3
+:nth-child(3){
+  font-size: 0.7rem;
+  margin-top: 5px;
+}
+
+.specs .mainSpecs .specsSectionLeftPart .imgPara4{
+  position: relative;
+ top: 65px;
+ left: 45px;
+}
+
+.specs .mainSpecs .specsSectionLeftPart .imgPara4
+img{
+  height: 15px;
+
+}
+
+.specs .mainSpecs .specsSectionLeftPart .imgPara4
+:nth-child(3){
+  font-size: 0.7rem;
+  margin-top: 5px;
+}
+/* section right part */
+.specs .mainSpecs .specsSectionRigthPart img{
+  height:240px;
+  width: 240px;
+  position: relative;
+  top: 40px;
+}
+
+/* case section */
+
+.caseSection{
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 70px;
+  
+  
+}
+.caseSection header img{
+  margin-left:200px;
+  height: 50px;
+}
+
+.caseSection .caseSectionMain{
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+
+.caseSection .caseSectionMain
+.caseSectionMainLeft img{
+  height: 250px;
+ 
+
+}
+.caseSection .caseSectionMain
+.caseSectionMainRight p{
+  font-size: 0.8rem;
+  line-height: 22px;
+
+}
+.caseSection .caseSectionMain
+.caseSectionMainRight .moreInfo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  margin-top: 18px;
+  background: #1e1e21;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.caseSection .caseSectionMain
+.caseSectionMainRight .moreInfo img{
+  height: 15px;
+}
+.caseSection .caseSectionMain
+.caseSectionMainRight .moreInfo p{
+  font-weight: 800;
+}
+
+/* Buy now section */
+
+.buyNowSection {
+  
+  display: flex;
+  gap: 70px;
+  background: #1e1e21;
+  align-items: center;
+  justify-content: center;
+  width: 1000px;
+  
+  margin: auto;
+  margin-top: 100px;
+  padding: 50px 40px;
+  border-radius: 25px;
+}
+
+.buyNowSection .buyNowSectionLeft{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.buyNowSection .buyNowSectionLeft h3{
+  font-weight: bolder;
+}
+
+.buyNowSection .buyNowSectionLeft p{
+  font-size: 0.8rem;
+}
+
+.buyNowSection .buyNowSectionLeft .buy{
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding: 10px 0px;
+  width: 95px;
+  border-radius: 10px;
+}
+.buyNowSection .buyNowSectionLeft .buy img{
+  height: 12px;
+}
+.buyNowSection .buyNowSectionLeft .buy p{
+  font-size: 0.7rem;
+}
+
+.buyNowSection .buyNowSectionRight img{
+  
+  height: 250px;
+
+}
+
+/* style section */
+.styleSection{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  gap: 30px;
+}
+
+.styleSection .styleSectionHeader img{
+  height: 120px;
+  
+}
+.styleSection .styleSectionHeadphones{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+.styleSection .styleSectionHeadphones .headphone2{
+  display: flex;
+}
+.styleSection .styleSectionHeadphones div{
+  background: #1e1e21;
+  
+}
+
+.styleSection .styleSectionHeadphones .headphoneContent{
+  display: flex;
+  
+  align-items: center;
+  margin-left: 10px;
+}
+.styleSection .styleSectionHeadphones .headphoneContent p{
+  font-size: 1.1rem;
+  font-weight: bolder;
+}
+.styleSection .styleSectionHeadphones .headphoneContent p span{
+  font-size: 0.9rem;
+}
+.styleSection .styleSectionHeadphones .headphoneContent img{
+  height: 20px;
+  margin-left: 30px;
+
+  
+} 
+.styleSection .styleSectionHeadphones .headphone{
+  margin-left: 40px;
+  position: relative;
+  bottom: 40px;
+  
+  
+}
+.styleSection .styleSectionHeadphones .headphoneContent .styleShoppingBag{
+  margin-left: 70px;
+}
+.styleSection .styleSectionHeadphones .headphoneContent .Bag1{
+  margin-right: 60px;
+}
+/* footer section */
+footer{
+  display: flex;
+  margin-top: 100px;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 100px;
+}
+footer .footerImg1{
+  height: 25px;
+}
+footer .footer1{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+footer .footer1 h6{
+  font-weight: 300;
+}
+footer .footer2{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+footer .footer2 h6{
+  font-weight: 300;
+}
+
+footer .footer3{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  
+}
+footer .footer3 .emailSection{
+  display: flex;
+  gap: 50px;
+  background: #1e1e21;
+  padding: 5px 10px;
+  border-radius: 5px;
+  align-items: center;
+}
+
+footer .footer3 .emailSection .subscribe{
+  display: flex;
+  gap: 10px;
+  background-color: black;
+  padding: 5px 12px;
+  border-radius: 5px;
+}
+footer .footerLastPart{
+  display: flex;
+  gap: 15px;
+}
+footer .footerLastImg{
+  height: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+  
+  
+
+  
+
+
+
+
