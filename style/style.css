@@ -5,6 +5,8 @@
   color: #ffffff;
 }
 body {
+  font-family: "Inter" , sans-serif;
+  font-size: 1rem;
   background-color: #0f0f10;
 }
 header {
@@ -124,7 +126,7 @@ section .lowerPart img {
   display: flex;
   justify-content: center;
   position: relative;
-  left: 13px;
+  /* left: 13px; */
   top: 18px;
 }
 
